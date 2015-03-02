@@ -19,6 +19,12 @@ We can come up with a new name for a command
 
 `alias fn='find . -iname'`
 
+which we can then run on the command line using the shortcut, e.g.:
+
+`$ fn "mouse*.raw"`
+
+which would search the file system, starting in the current folder for all files that begin with "mouse" and have a ".raw" extention
+
 we can also re-assign commands so that they have certain options by default
 
 `alias ls='ls --color'`
