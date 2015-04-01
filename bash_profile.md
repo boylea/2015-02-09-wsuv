@@ -6,7 +6,7 @@ title : Bash Customization
 Customizing your shell terminal
 ===============================
 
-Code to customize your terminal lives in the file `.bash_profile` in your home folder. This is a plain text file that you can add to using any text editor.
+Code to customize your terminal lives in the file `.bash_profile` in your home folder. If is does not exist you can create it. This is a plain text file that you can add to using any text editor.
 
 Any commands that you can run interactively at the terminal command prompt can be put in here to be executed each time the terminal is opened.
 
@@ -48,6 +48,8 @@ Notice that Bash prompts usually end in a `$`, but this is by convention only. H
 
 Updating your path
 ------------------
+
+Directories, not specific files should be added to the path. When a command is entered on the command line, bash will search all of the directories on the path for that command (program).
 
 To see what is currently on your path type
 
